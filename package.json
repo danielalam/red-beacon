@@ -1,0 +1,31 @@
+{
+  "name": "red-beacon",
+  "version": "0.0.1",
+  "description": "Email activated beacon",
+  "main": "redBeacon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danielalam/red-beacon.git"
+  },
+  "keywords": [
+    "Jenkins",
+    "alert",
+    "beacon",
+    "email",
+    "triggered",
+    "alarm"
+  ],
+  "author": "Daniel Alam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielalam/red-beacon/issues"
+  },
+  "homepage": "https://github.com/danielalam/red-beacon",
+  "dependencies": {
+    "socket.io": "^1.0.6",
+    "mail-notifier": "^0.2.3"
+  }
+}
